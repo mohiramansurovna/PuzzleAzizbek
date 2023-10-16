@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'okey';
+    src:url('okey.woff2') format('woff2');
+  }
+
+body{
+    background-color:#53bb82;
+    padding:0;
+    margin:0;
+}
+h1{
+    font-family:'okey';
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    background-color:rgb(136, 41, 41);
+    color:#fff;
+    padding-top:8px;
+    font-size:55px;
+    border:none;
+    margin:0 0 20px 0;
+}
+.parent{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    grid-template-columns:200px 200px;
+    grid-template-rows:200px 30px 200px 30px;
+    row-gap:5px;
+    column-gap:10px;
+    position:relative;
+}
+#box1{
+    grid-area:1/1;
+    width:200px;
+    height:200px;
+    background-image:url(Maizen1/main.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+#box2{
+    grid-area:1/2;
+    width:200px;
+    height:200px;
+    background-image:url(Maizen2/main.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+#box3{
+    grid-area:3/1;
+    width:200px;
+    height:200px;
+    background-image:url(Maizen3/main.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+#box4{
+    grid-area:3/2;
+    width:200px;
+    height:200px;
+    background-image:url(Maizen4/main.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+.name{
+    color:black;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    position:relative;
+    width:200px;
+    height:30px;
+    background-color:rgba(255, 255, 255, 0.26);
+    font-size:25px;
+    font-family:'okey';
+    font-align:center;
+    text-decoration:none;
+    padding-top:15px;
+    padding-bottom:0px;
+}
+    
+#name1{
+    grid-area:2/1;
+}
+#name2{
+    grid-area:2/2;
+}
+#name3{
+    grid-area:4/1;
+}
+#name4{
+    grid-area:4/2;
+}
