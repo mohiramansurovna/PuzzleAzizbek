@@ -84,7 +84,6 @@ h1{
     padding-top:15px;
     padding-bottom:0px;
 }
-//why this isn't working
 #name1{
     grid-area:2/1;
 }
