@@ -36,7 +36,7 @@ h1{
     grid-area:1/1;
     width:200px;
     height:200px;
-    background-image:url(Maizen1/main.jpg);
+    background-image:url(main1.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -45,7 +45,7 @@ h1{
     grid-area:1/2;
     width:200px;
     height:200px;
-    background-image:url(Maizen2/main.jpg);
+    background-image:url(main2.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -54,7 +54,7 @@ h1{
     grid-area:3/1;
     width:200px;
     height:200px;
-    background-image:url(Maizen3/main.jpg);
+    background-image:url(main3.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -63,7 +63,7 @@ h1{
     grid-area:3/2;
     width:200px;
     height:200px;
-    background-image:url(Maizen4/main.jpg);
+    background-image:url(main4.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
